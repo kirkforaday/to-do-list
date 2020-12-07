@@ -1,0 +1,91 @@
+body{
+    font-family: Arial;
+    color: #444;
+    letter-spacing: 1px;
+    background-color: #A1D6E2;
+}
+
+#wrapper{
+    width: 90%;
+    max-width: 460px;
+    margin: 20px auto;
+    padding: 0 0 20px;
+    overflow: hidden;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    border: 10px double #1995AD;
+    background: #BCBABE;
+}
+
+#banner{
+    background-color: #1995AD;
+    padding: 10px 0;
+    color: #F1F1F2;
+}
+
+#banner h1{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    font-family: "Kaushan Script", cursive;
+}
+
+#task-list {
+    margin: 30px;
+}
+
+#task-list ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#task-list li{
+    padding: 20px;
+    border-left: 5px solid #1995AD;
+    margin: 20px 10px;
+    color: #F1F1F2;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+#task-list li:hover{
+    border-color: #F1F1F2;
+}
+
+#add-task{
+    width: 400px;
+    margin: 0 auto;
+}
+
+#userInput{
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid #BCBABE;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+    width: 300px;
+    float: left;
+    background-color: #f1f1f2;
+}
+
+#enter{
+    border: 2px solid #BCBABE;
+    background: #1995AD;
+    padding: 10px 20px;
+    font-size: 12.5px;
+    display: inline-block;
+    margin: 0;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 20px 0;
+    border-left: 0;
+    color: #f1f1f2;
+    font-family: 'Oswald', sans-serif;
+}
+
+.delete {
+    display: none;
+}
